@@ -19,18 +19,11 @@ export default defineNuxtConfig({
       viewport: 'width=device-width, initial-scale=1',
     }
   },
-  // runtimeConfig: {
-  //   SUPABASE_URL: "",
-  //   SUPABASE_KEY: ""
-  // },
-  supabase: {
-    url: process.env.SUPABASE_URL,
-    key: process.env.SUPABASE_KEY,
-    redirect: false,
-    cookieOptions: {
-      secure: true
-    },
-    cookieName: "nuxtToken"
+  runtimeConfig: {
+    token: process.env.NUXT_SUPABASE_TOKEN
   },
-  ssr: false
+  supabase: {
+    redirect: false
+  },
+  ssr: true
 })
