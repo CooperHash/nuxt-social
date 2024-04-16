@@ -19,6 +19,15 @@ type PostArr = Post[]
 
 
 onMounted(async () => {
+  // const fetchLibrary = async () => {
+  //   const { timeline } = await $fetch('/api/timeline', {
+  //     headers: {
+  //       Authorization: `Bearer ${config.token}`
+  //     }
+  //   })
+  //   return timeline as PostArr
+  // }
+  // timelineData.value = await fetchLibrary()
   const token = (await session).data.session?.access_token
   const { pending, data: result, error } = await useFetch('/api/timeline', {
     //lazy: true,
