@@ -5,6 +5,8 @@
 3. tree-shaking 
 4. 代码分割
 
+![image](https://github.com/CooperHash/nuxt-social/assets/73218815/4e02422a-26d9-4954-a1b3-e48dcee3e0fe)
+
 
 
 ### Deploy
