@@ -22,4 +22,8 @@
 2. 某些情况要立马获取更新后的dom，用nextTick
 
 
+### Reference
+
+1. [trouble-accessing-your-session-and-access-token-using-supabase-nuxt-and-vue3](https://medium.com/@thexumaker/trouble-accessing-your-session-and-access-token-using-supabase-nuxt-and-vue3-e03e6b979bbf)
+
 
